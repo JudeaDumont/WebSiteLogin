@@ -3,11 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <script type="text/javascript"
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    </script>
     <link href="main.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
     <div class="login-page">
@@ -21,9 +17,9 @@
             </form>
             <form class="login-form" action="handlecredentials.php" method="POST">
                 <input name="name" type="text" placeholder="username"/>
-                <input id="5" type="password" placeholder="password"/>
-                <button onclick="login()">login</button>
-                <p class="message">Not registered? <a href="#">Create an account</a></p>
+                <input name="password" id="5" type="password" placeholder="password"/>
+                <button>login</button>
+                <p class="message">Not registered? <a href="createaccount.html">Create an account</a></p>
             </form>
         </div>
     </div>
